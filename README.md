@@ -1,9 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TimeSheet.js Demo</title>
+# TimeSheet.js Demo
+
+<div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/timesheet.js/1.0.0/timesheet.min.js"></script>
   <style>
     #timesheet {
@@ -12,15 +9,11 @@
       margin: 0 auto;
     }
   </style>
-</head>
-<body>
-
-<h1>TimeSheet.js Demo</h1>
+</div>
 
 <div id="timesheet"></div>
 
 <script>
-  // Sample data
   var data = [
     { start: '2024-04-01', end: '2024-04-04', label: 'Project A' },
     { start: '2024-04-02', end: '2024-04-05', label: 'Project B' },
@@ -29,7 +22,6 @@
     // Add more data as needed
   ];
 
-  // Initialize TimeSheet
   var ts = new TimeSheet('timesheet', data, {
     theme: 'default',
     round: false,
@@ -40,9 +32,5 @@
     }
   });
 
-  // Draw the timesheet
   ts.draw();
 </script>
-
-</body>
-</html>

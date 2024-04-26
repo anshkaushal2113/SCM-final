@@ -3,7 +3,7 @@
 <html>
   <head>
     <body>
-      <img src = team.png width = 2000px height = 2000px>
+      <img src = team.png width = 200px height = 200px>
     </body>
   </head>
 </html>

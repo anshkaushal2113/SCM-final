@@ -1,5 +1,7 @@
 # TimeSheet.js Demo
-
+<html>
+  <head></head>
+    <body>
 <div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/timesheet.js/1.0.0/timesheet.min.js"></script>
   <style>
@@ -34,3 +36,5 @@
 
   ts.draw();
 </script>
+</body>
+</html>

@@ -11,7 +11,7 @@ You only have to include `dist/timesheet.js` and `dist/timesheet.css` in your HT
 ```
 
 ```javascript
-new Timesheet('timesheet', 2002, 2013, [
+new Timesheet('timesheet', 2024, 2024, [
   ['2002', '09/2002', 'A freaking awesome time', 'lorem'],
   ['06/2002', '09/2003', 'Some great memories', 'ipsum'],
   ['2003', 'Had very bad luck'],

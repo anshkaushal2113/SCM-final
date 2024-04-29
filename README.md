@@ -20,8 +20,8 @@ Working on a project to build a portfolio making website.
 |10|Ansh Kaushal| Addind samples of other portfolio sites.(SH -Kannan)|6-05-24|
 |11|Aryan Gupta| Final testing and responsive webiste testing.(SH-Ansh)|7-05-24|
 |12|Kannan Garg|Finding small issues and reporting(SH-Ansh)|10-05-24|
-|13|Ansh Kaushal|Making it more interactive and adding doodles(SH-Kannan)|12-05-24|
-|14|Aryan Gupta|Adding Cover Letter implemented with open API(SH-Ansh)|15-05-23|
+|13|Ansh Kaushal|Making it more interactive and adding doodles(SH-Kannan)|11-05-24|
+|14|Aryan Gupta|Adding Cover Letter implemented with open API(SH-Ansh)|12-05-23|
 
 ## Run Locally
 

@@ -13,7 +13,7 @@ Working on a project to build a portfolio making website.
 |3| Aryan Gupta| Forking the repository| 26-04-24   |
 |4| Ansh Kaushal| Making my own portfolio website(Sub handler-Aryan)| 27-04-24   |
 |5| Kannan Garg| Adding support for flask for contact page(Sub handler- Ansh)| 30-04-24   |
-|6|Aryan Gupta| Try makin interactive webiste from it(Sub handler- Kannan)  |1-05-24|
+|6|Aryan Gupta| Try makin responsive webiste from it(Sub handler- Kannan)  |1-05-24|
 |7|Ansh Kaushal | Implementing open API for Chat bot.(Sub handler- Ansh) |2-05-24|
 |8|Kannan Garg| Issue with adding of rows and colomn in printing cv.(SH- Aryan)|3-05-24|
 |9|Aryan Gupta| Creating Jobify The All in one Job Finding Sol.(SH- Ansh)|5-05-24|

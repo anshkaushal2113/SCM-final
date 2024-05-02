@@ -17,7 +17,7 @@ Working on a project to build a portfolio making website.
 |7|Ansh Kaushal | Implementing open API for Chat bot.(Sub handler- Ansh) |2-05-24|
 |8|Kannan Garg| Issue with adding of rows and colomn in printing cv.(SH- Aryan)|3-05-24|
 |9|Aryan Gupta| Creating Jobify The All in one Job Finding Sol.(SH- Ansh)|5-05-24|
-|10|Ansh Kaushal| Addind samples of other portfolio sites.(SH -Kannan)|6-05-24|
+|10|Ansh Kaushal| Adding samples of other portfolio sites.(SH -Kannan)|6-05-24|
 |11|Aryan Gupta| Final testing and responsive webiste testing.(SH-Ansh)|7-05-24|
 |12|Kannan Garg|Finding small issues and reporting(SH-Ansh)|10-05-24|
 |13|Ansh Kaushal|Making it more interactive and adding doodles(SH-Kannan)|11-05-24|

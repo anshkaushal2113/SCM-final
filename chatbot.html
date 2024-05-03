@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT Chatbot</title>
+    <style>
+        #chat-container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        #messages {
+            list-style-type: none;
+            padding: 0;
+        }
+        #messages li {
+            margin-bottom: 10px;
+        }
+        #user-input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="chat-container">
+        <ul id="messages"></ul>
+        <input type="text" id="user-input" placeholder="Type your message...">
+    </div>
+
+    <script>
+        async function sendMessageToServer(message) {
+            try {
+                const response = await fetch('/message', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ message })
+                });
+
+                const data = await response.json();
+                return data.response;
+            } catch (error) {
+                console.error('Error sending message to server:', error);
+                return 'Sorry, I encountered an error. Please try again later.';
+            }
+        }
+
+        function addMessage(sender, message) {
+            const messagesContainer = document.getElementById('messages');
+            const listItem = document.createElement('li');
+            listItem.textContent = `${sender}: ${message}`;
+            messagesContainer.appendChild(listItem);
+        }
+
+        async function handleUserInput() {
+            const userInput = document.getElementById('user-input').value;
+            addMessage('You', userInput);
+            document.getElementById('user-input').value = '';
+            const response = await sendMessageToServer(userInput);
+            addMessage('ChatGPT', response);
+        }
+
+        document.getElementById('user-input').addEventListener('keypress', async function(event) {
+            if (event.key === 'Enter') {
+                await handleUserInput();
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,5 +1,7 @@
 
-# Portfolio Builder
+<h1 align="center">
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+Welcome+to+Potfolio+Builders!;" />
+</h1>
 
 Working on a project to build a portfolio making website.
 
@@ -22,6 +24,15 @@ Working on a project to build a portfolio making website.
 |12|Kannan Garg|Finding small issues and reporting(SH-Ansh)|10-05-24|
 |13|Ansh Kaushal|Making it more interactive and adding doodles(SH-Kannan)|11-05-24|
 |14|Aryan Gupta|Adding Cover Letter implemented with open API(SH-Ansh)|12-05-23|
+
+
+<div align="center">
+  <h2>🐍 Our Contributions 🐍</h2>
+  <br>
+  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/salesp07/salesp07/output/github-contribution-grid-snake.svg" />
+  
+  <br/><br/><br/>
+</div>
 
 ## Run Locally
 
